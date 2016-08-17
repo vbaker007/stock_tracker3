@@ -6,6 +6,9 @@ Rails.application.routes.draw do
   get 'welcome/index'
 
   get 'my_portfolio', to: "users#my_portfolio"
+
+  get 'search_stocks', to: "stocks#search"
+  
   get 'welcome/new'
 
   # The priority is based upon order of creation: first created -> highest priority.
